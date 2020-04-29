@@ -17,7 +17,7 @@ pipeline {
 //   }
  stage("Create new tag") {
          when {
-               expression {env.BRANCH_NAME == 'master'}
+               expression {env.BRANCH_NAME == 'Test'}
             }                     
             steps {
              sshagent (credentials: ['jenkins-secret-text'])                        
