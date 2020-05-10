@@ -5,10 +5,7 @@ pipeline {
       label 'master'
     }
   }
-
-
-
-  stages {
+stages {
 //    stage('PHPUnit Test') {
 //      steps {
 //       echo 'Running PHPUnit...'
